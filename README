@@ -1,3 +1,13 @@
+Repository
+=======================================
+
+This repository contains a version of Clon with several bufixes applied.
+Based on version clon-0.0.2 from http://quotenil.com/binary/clon/
+
+
+Original README
+=======================================
+
 Clon is a Common Lisp library for scheduling much like cron.
 
 It's under the MIT licence. See COPYING.
