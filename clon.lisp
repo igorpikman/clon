@@ -291,7 +291,7 @@ it as a universal time."
 (defun find-decoded-time-component-by-type (type value decoded-time n)
   "Return the first valid value not less than VALUE that is of TYPE."
   (loop with limit = (max-valid-decoded-time-component n decoded-time)
-        for x upfrom value below limit
+        for x upfrom value upto limit
         do (when (typep x type)
              (return-from find-decoded-time-component-by-type x))))
 
